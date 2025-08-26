@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbb16f;
+}
+
+.barra-inicial
+{
+    background-color: #131A24;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo
+{
+   height: 100%;
+}
+
+.logoimg
+{
+    height: 100%;
+}
+
+.pesquisa
+{
+    position: relative;
+    right: 5%;
+    bottom: 10px;
+}
+
+.pesq1
+{
+    position: absolute;
+    left: 5%;
+    height: 20px;
+    width: 150px;
+}
+
+.itensvenda
+{
+    display: flex;
+    width: 100vw;
+    position: relative;
+    top: 100px;
+}
+
+.caixa
+{
+    display: flex;
+    background-color: #cfcfcf;
+    border-radius: 5%;
+    margin: 20px;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+}
+
+.usuario
+{
+    color: white;
+}
+
+.comentário
+{
+    color: white;
+}
+
+.carrinho
+{
+    color: white;
+}
+
+.quemsomos
+{
+    color: white;
+}
+.imgcaixa
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 5%;
+}
+
+.imgcaixa:hover
+{
+    width: 50%;
+}
+
+.h1-1
+{
+    position: absolute;
+    opacity: 0;
+}
+
+.caixa:hover  .h1-1
+{
+    opacity: 1;
+    transition: 0.5;
+}
+

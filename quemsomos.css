@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbb16f;
+    display: grid;
+    justify-content: center;
+}
+
+.corpo
+{
+
+    height: 100vh;
+    width: 50vw;
+    text-align: center;
+    display: grid;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.tx1
+{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.voltar
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.svgseta
+{
+    fill: white;
+    width: 55px;
+    height: 55px;
+}
+
+.avoltar
+{
+    width: 55px;
+    height: 55px;
+}

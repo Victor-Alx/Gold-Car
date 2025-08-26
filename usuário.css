@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbb16f;
+}
+
+.LOGIN
+{
+    position: absolute;
+    right: 25%;
+    background-color: #131A24;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+.divuser
+{
+    position:relative;
+    top: 20%;
+}
+
+.user
+{
+    fill: white;
+    width: 100px;
+    height: 100px;
+}
+
+.preencher
+{
+    position: relative;
+    top: 30%;
+    color: white;
+    margin: 5%;
+}
+
+.preen
+{
+    border-radius: 5%;
+    width: 35%;
+}
+
+.ENTRAR
+{
+    color: black;
+    position: absolute;
+    right: 32%;
+    top: 75%;
+    padding: 14px 100px;
+    background-color: white;
+}
+
+.CAD
+{
+    color: white;
+}
+
+.CADASTRA
+{
+    position: absolute;
+    right: 44%;
+    top: 90%;
+}
+
+.voltar
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.svgseta
+{
+    fill: white;
+    width: 55px;
+    height: 55px;
+}
+
+.avoltar
+{
+    width: 55px;
+    height: 55px;
+}

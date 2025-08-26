@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbb16f;
+}
+
+.corpo2
+{
+    display: flex;
+}
+
+.corpreta1
+{
+    background-color: rgb(54, 54, 54);
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.compras1
+{
+    height: 100vh;
+    width: 50vw;
+}
+
+.caixa
+{
+    display: flex;
+    background-color: #cfcfcf;
+    border-radius: 5%;
+    margin: 20px;
+    height: 300px;
+    width: 40%;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.corpreta1:hover > :not( :hover)
+{
+    transform: scale(0.9);
+    opacity: .4;
+}
+
+.imgcaixa
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 5%;
+}
+
+.imgcaixa:hover
+{
+    width: 50%;
+}
+
+.h1-1
+{
+    position: relative;
+    top: 125px;
+}
+
+.compras1
+{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+}
+
+.voltar
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.svgseta
+{
+    fill: white;
+    width: 55px;
+    height: 55px;
+}
+
+.avoltar
+{
+    width: 55px;
+    height: 55px;
+}
